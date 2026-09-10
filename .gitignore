@@ -1,0 +1,60 @@
+### --- Python --- ###
+# Środowiska wirtualne
+.venv/
+venv/
+ENV/
+env/
+
+# Cache i pliki skompilowane
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dystrybucja i budowanie
+dist/
+build/
+*.egg-info/
+.installed.cfg
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### --- Kotlin (Gradle / JVM) --- ###
+# Pliki budowania Gradle
+.gradle/
+out/
+
+# Pliki wykonywalne i biblioteki
+*.class
+*.jar
+*.war
+*.ear
+
+# Lokalne ustawienia Gradle
+gradle-app.setting
+!gradle-wrapper.jar
+
+### --- IDE (IntelliJ / PyCharm / VS Code) --- ###
+.idea/
+*.iml
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+### --- Systemowe --- ###
+.DS_Store
+Thumbs.db
+
+
+output/
+plots/
+instruction/
+*.zip
+*.ipynb
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
