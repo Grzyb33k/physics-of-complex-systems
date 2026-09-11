@@ -23,11 +23,8 @@ jobs:
         with:
           pixi-version: v0.77.0
 
-      - name: Test lab03
-        run: pixi run lab03
-
-      - name: Test lab04
-        run: pixi run lab04
+      - name: Test all labs
+        run: pixi run test
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
