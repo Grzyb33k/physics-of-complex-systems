@@ -111,6 +111,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_hd70dff1_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tornado-6.5.7-py314h5bd0f2a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-17.0.1-py314h5bd0f2a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.12-h841d291_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/wayland-1.26.0-hd6090a7_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-0.4.1-h4f16b4b_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-cursor-0.1.6-hb03c661_0.conda
@@ -1746,6 +1747,21 @@ packages:
   run_exports: {}
   size: 409562
   timestamp: 1770909102180
+- conda: https://conda.anaconda.org/conda-forge/linux-64/uv-0.12.12-h841d291_0.conda
+  sha256: 0da9fba742577c9e93020e435eccfdbe62d601aa2f25314c44e2bc13341610ff
+  md5: ab48164f27bfec8d6624e2c8447e73f5
+  depends:
+  - libstdcxx >=15
+  - libgcc >=15
+  - __glibc >=2.17,<3.0.a0
+  - liblzma >=5.8.3,<6.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  constrains:
+  - __glibc >=2.17
+  license: Apache-2.0 OR MIT
+  run_exports: {}
+  size: 17422522
+  timestamp: 1788980982313
 - conda: https://conda.anaconda.org/conda-forge/linux-64/wayland-1.26.0-hd6090a7_0.conda
   sha256: 6b9e182021ef3a64ab3bf788ebdab6de6775035612237c639ccafc941639eb13
   md5: b34c5559f45d8996e3bc0b6250a6cc84
