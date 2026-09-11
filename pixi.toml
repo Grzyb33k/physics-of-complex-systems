@@ -8,6 +8,9 @@ version = "0.1.0"
 [tasks]
 lab03 = "bash bash_scripts/lab03.sh"
 lab04 = "bash bash_scripts/lab04.sh"
+lab05 = "bash bash_scripts/lab05.sh"
+
+test = { depends-on = ["lab03", "lab04", "lab05"] }
 
 [dependencies]
 matplotlib = ">=3.11.1,<4"
