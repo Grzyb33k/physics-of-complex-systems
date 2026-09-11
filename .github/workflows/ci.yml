@@ -25,3 +25,13 @@ jobs:
 
       - name: Test lab03
         run: pixi run lab03
+
+      - name: Test lab04
+        run: pixi run lab04
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: plots
+          path: |
+            lab*/plots/

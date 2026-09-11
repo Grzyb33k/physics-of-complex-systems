@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "2.3.10"
+    application
 }
 
 group = "pl.kamil"
@@ -19,4 +20,8 @@ kotlin {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+application {
+    mainClass.set("pl.kamil.MainKt")
 }

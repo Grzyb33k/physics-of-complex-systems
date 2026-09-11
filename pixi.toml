@@ -7,6 +7,7 @@ version = "0.1.0"
 
 [tasks]
 lab03 = "bash bash_scripts/lab03.sh"
+lab04 = "bash bash_scripts/lab04.sh"
 
 [dependencies]
 matplotlib = ">=3.11.1,<4"
