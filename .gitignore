@@ -58,3 +58,9 @@ instruction/
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# output files
+*.pdf
+*.gif
+*.png
+*.mp4
