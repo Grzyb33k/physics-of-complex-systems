@@ -32,3 +32,4 @@ jobs:
           name: plots
           path: |
             lab*/plots/
+            lab*/results/
