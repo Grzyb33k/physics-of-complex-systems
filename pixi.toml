@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Kamil Kania <kkania388@gmail.com>"]
+channels = ["conda-forge"]
+name = "lab"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+lab03 = "bash bash_scripts/lab03.sh"
+
+[dependencies]
+matplotlib = ">=3.11.1,<4"
+pandas = ">=3.0.5,<4"
