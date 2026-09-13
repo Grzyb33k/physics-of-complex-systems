@@ -10,8 +10,17 @@ lab03 = "bash bash_scripts/lab03.sh"
 lab04 = "bash bash_scripts/lab04.sh"
 lab05 = "bash bash_scripts/lab05.sh"
 lab06 = "bash bash_scripts/lab06.sh"
+lab07 = "bash bash_scripts/lab07.sh"
 
-test = { depends-on = ["lab03", "lab04", "lab05", "lab06"] }
+test = { depends-on =
+  [
+    "lab03",
+    "lab04",
+    "lab05",
+    "lab06",
+    "lab07",
+  ]
+}
 
 [dependencies]
 matplotlib = ">=3.11.1,<4"

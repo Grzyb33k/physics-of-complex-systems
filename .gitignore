@@ -51,6 +51,8 @@ Thumbs.db
 
 output/
 plots/
+results/
+gifs/
 instruction/
 *.zip
 *.ipynb
