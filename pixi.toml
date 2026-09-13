@@ -13,6 +13,8 @@ lab06 = "bash bash_scripts/lab06.sh"
 lab07 = "bash bash_scripts/lab07.sh"
 lab08 = "bash bash_scripts/lab08.sh"
 lab09 = "bash bash_scripts/lab09.sh"
+lab10 = "bash bash_scripts/lab10.sh"
+
 
 test = { depends-on =
   [
@@ -23,6 +25,7 @@ test = { depends-on =
     "lab07",
     "lab08",
     "lab09",
+    "lab10",
   ]
 }
 

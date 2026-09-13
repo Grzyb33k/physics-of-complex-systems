@@ -1,0 +1,22 @@
+[project]
+name = "lab10-random-networks-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kamil Kania", email = "kkania388@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "networkx>=3.6.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "scipy>=1.18.1",
+]
+
+[project.scripts]
+lab10-random-networks-2 = "lab10_random_networks_2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
